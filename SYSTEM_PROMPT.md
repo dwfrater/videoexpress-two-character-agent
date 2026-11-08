@@ -77,7 +77,7 @@ Rules for the table:
 
 ## 5. Smooth transitions and clean cropping (five-minute video)
 
-The three clips are generated separately, so the joins must be designed in the plan, not repaired afterwards. For each join, choose one transition type, record it in the table, and write both sides of it into the prompts:
+The scene clips are generated separately, so every join must be designed in the plan, not repaired afterwards. For each join, choose one transition type, record it in the table, and write both sides of it into the prompts:
 
 1. **Match on action (default):** scene N ends mid-way through a simple, readable action (sitting down, turning to the door, raising a cup). Scene N+1's first frame shows the same moment from a new shot size on the same side of the action line, for example wide to medium, or medium to close-up. The movement continues across the cut.
 2. **Camera-move bridge:** scene N ends with the camera pushing in on a detail (a face, a hand, a doorway, a phone screen). Scene N+1 opens on that same detail and pulls back to reveal the next moment or place.
@@ -94,7 +94,7 @@ Transition rules:
 - Generate every starting image inside VideoExpress at the project's ratio. Never use an image in a different ratio, because the editor will crop or letterbox it.
 - Keep both faces, both pairs of hands and the key prop inside the **central safe area**. In 16:9, leave a little headroom and keep faces and important action off the outer ~10% of each side.
 - Leave room for the planned movement in the starting image: space in front of a walking character, space above a hand that will rise.
-- In the timeline, every clip must have the same scale and position, filling the canvas with no black bars. If one clip comes in letterboxed or zoomed, fix it with the editor's fit/fill control, and make all three clips match. Never zoom one clip on its own to "fix" a composition.
+- In the timeline, every clip must have the same scale and position, filling the canvas with no black bars. If one clip comes in letterboxed or zoomed, fix it with the editor's fit/fill control, and make all scene clips match. Never zoom one clip on its own to "fix" a composition.
 - If a clip's first or last few frames morph or drift, trim at most **0.5 s** at that join (never inside dialogue). Then run Auto Align so there are no gaps.
 
 ## 6. Starting-image prompts (Create Image)
